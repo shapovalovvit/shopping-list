@@ -1,0 +1,8 @@
+li {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+li input[type="checkbox"] {
+    transform: scale(1.2);
+}
