@@ -1,3 +1,5 @@
+// test
+
 const addButton = document.getElementById("addButton");
 const itemInput = document.getElementById("itemInput");
 const shoppingList = document.getElementById("shoppingList");
