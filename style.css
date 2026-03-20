@@ -6,3 +6,7 @@ li {
 li input[type="checkbox"] {
     transform: scale(1.2);
 }
+
+body {
+    background-color: #E5D0FF; /* Светло-фиолетовый (Lavender) */
+}

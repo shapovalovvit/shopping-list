@@ -30,7 +30,7 @@ function addItem() {
 
     // кнопка "Удалить"
     const deleteButton = document.createElement("button");
-    deleteButton.textContent = "Удалить";
+    deleteButton.textContent = "Удалить нафиг";
     deleteButton.style.marginLeft = "10px";
     deleteButton.addEventListener("click", () => {
         li.remove();
