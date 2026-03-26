@@ -8,5 +8,39 @@ li input[type="checkbox"] {
 }
 
 body {
-    background-color: #E5D0FF; /* Светло-фиолетовый (Lavender) */
+    background-color: #E5D0FF;
+    margin: 0;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+
+.checkbox {
+    margin-right: 10px;
+    transform: scale(1.2);
+}
+
+.delete-btn {
+    margin-left: 10px;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.35;
+}
+
+.divider {
+    margin: 15px 0;
+    border: none;
+    border-top: 2px solid #ccc;
+}
+
+.completed-item {
+    margin-top: 10px;
 }
