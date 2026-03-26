@@ -12,7 +12,9 @@ function addItem() {
     // updateDivider();
 
     const li = document.createElement("li");
-
+    li.draggable = true;
+    li.classList.add("draggable");
+    
     // чекбокс
     const checkbox = document.createElement("input");
     checkbox.type = "checkbox";
@@ -27,6 +29,8 @@ function addItem() {
     }
     updateDivider();
 });
+
+
 
 function placeItem(li, completed) {
     const divider = document.querySelector(".divider");
