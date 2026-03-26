@@ -44,3 +44,14 @@ body {
 .completed-item {
     margin-top: 10px;
 }
+
+/* Шаг 2. CSS (визуальная обратная связь) */
+
+.draggable {
+    cursor: grab;
+}
+
+.draggable:active {
+    cursor: grabbing;
+    opacity: 0.5;
+}
